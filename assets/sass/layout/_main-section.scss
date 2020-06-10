@@ -1,0 +1,141 @@
+.main {
+//  position: absolute;
+  background-color: $jelly-bean;
+  text-align: center;
+  width: 100%;
+  font-family: $raleway;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.main__title {
+  color: $white;
+  text-align: center;
+}
+
+.main__title-extra-light {
+  font-weight: $extra-light;
+  font-size: $xx-large;
+}
+
+.main__title-bold {
+  font-size: $x-large;
+  font-weight: bold;
+}
+
+.section1 {
+  background-color: $taupe-gray;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.section1__img {
+  width: 100%;
+}
+
+.section1__container {
+  padding-right: 13em;
+  padding-left: 13em;
+  color: $white;
+  font-family: $raleway;
+}
+
+.section1__title-medium {
+  padding-top: 1em;
+  font-weight: $medium;
+  font-size: $large;
+}
+
+.section1__p {
+  padding: 1em 0em;
+  text-align: left;
+}
+
+.section2 {
+  background-color: $white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.section2__title-medium {
+  padding-top: 1em;
+  font-weight: $medium;
+  font-size: $large;
+  color: $granite-gray;
+}
+
+.section2__p {
+  padding: 1em 0em;
+  color: $granite-gray;
+  text-align: left;
+}
+
+.section3__container {
+  background-color: $jelly-bean;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.section3__container-white {
+  background-color: $white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 13em;
+  padding-left: 13em;
+}
+
+.section3__title-bold {
+  color: $white;
+  font-size: $x-large;
+  font-weight: bold;
+}
+
+.section3__img {
+  width: 50%;
+  padding-top: 1em;
+}
+
+.section3__title-medium {
+  padding-top: 0.5em;
+  font-weight: $medium;
+  font-size: $large;
+  color: $granite-gray;
+}
+
+.section3__p {
+  text-align: left;
+  padding-bottom: 2em;
+}
+
+.section4__container {
+  background-color: $jelly-bean;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+
+}
+
+.section4__title-bold {
+  color: $white;
+  font-size: $large;
+  font-weight: bold;
+}
+
+.button_align {
+  text-align: center;
+}
+
+.button {
+  font-size: $medium;
+  font-weight: $bold;
+  color: $granite-gray;
+  background-color: $white;
+  padding: 1em 3em;
+  border-radius: 60px;
+  border: 1px solid $granite-gray;
+}

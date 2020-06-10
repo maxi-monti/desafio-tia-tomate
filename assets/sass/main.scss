@@ -1,0 +1,22 @@
+// abstracts
+@import 'abstracts/variables'; // Colores y fuentes
+@import 'abstracts/mixins';    // Vacío
+
+// bootstrap
+@import "vendors/bootstrap-4.5.0/bootstrap";  // Bootstrap
+
+// base
+@import 'base/base';          // Body
+@import 'base/reset';         // Body + img
+@import 'base/typography';    // Tipografía
+
+// layout
+@import 'layout/header';          // Header + Logo
+@import 'layout/footer';          // Footer
+@import 'layout/main-section';    // Main section
+
+// components
+/*
+@import 'components/buttons';  // Buttons
+@import 'components/inputs';   // Especificaciones de secciones
+*/
